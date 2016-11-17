@@ -70,3 +70,32 @@ input::-webkit-input-placeholder {
   font-size: 11px;
   text-align: center;
 }
+
+#btn-pos{
+  margin-bottom: 15px;
+}
+
+#profileContainer{
+  background-color: white;
+  background-position: cover;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 0px solid #000000;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 15px;
+
+
+}
+
+.info-post{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.content-post{
+  display: inline-block;
+  margin-left: 50px;
+}
