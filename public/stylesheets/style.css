@@ -8,7 +8,7 @@
 
 body, html{
      height: 100%;
- background-image: url(https://newevolutiondesigns.com/images/freebies/city-wallpaper-18.jpg);
+ background-image: url("../images/backg.jpg");
  background-size: auto;
   font-family: 'Oxygen', sans-serif;
 }
@@ -43,7 +43,7 @@ input::-webkit-input-placeholder {
 }
 
 .main-login{
-  background-color: #fff;
+  background: rgba(255, 255, 255, 0.7);
     /* shadows and rounded borders */
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -76,7 +76,7 @@ input::-webkit-input-placeholder {
 }
 
 #profileContainer{
-  background-color: white;
+  background: rgba(243, 237, 234, 0.9);
   background-position: cover;
   border-radius: 3px 3px 3px 3px;
   -moz-border-radius: 3px 3px 3px 3px;
@@ -98,4 +98,25 @@ input::-webkit-input-placeholder {
 .content-post{
   display: inline-block;
   margin-left: 50px;
+}
+
+#rm-margin{
+
+  margin-top: 0px;
+}
+
+.logo{
+  width: 100%;
+  font-size: 108px;
+  color: white;
+  text-align: center;
+
+
+}
+
+.subtext{
+  width: 100%;
+  font-size: 28px;
+  color: white;
+  text-align: center;
 }
