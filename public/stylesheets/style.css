@@ -1,10 +1,4 @@
-/*
-/* Created by Filipe Pina
- * Specific styles of signin, register, component
- */
-/*
- * General styles
- */
+
 
 body, html{
      height: 100%;
@@ -119,4 +113,30 @@ input::-webkit-input-placeholder {
   font-size: 28px;
   color: white;
   text-align: center;
+}
+
+.block-contact{
+  display: inline-block;
+  background: white;
+  background-position: cover;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 5px;
+ 
+
+}
+
+#imgCnt{
+
+ padding: 0px;
+
+}
+
+#textCnt{
+
+  padding-top: 13px;
+
 }
